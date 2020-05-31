@@ -62,12 +62,14 @@
             <item
                 android:id="@+id/nav_one_night_two_days"
                 android:icon="@drawable/ic_edit_location"
-                android:title="1박 2일 여행"
-                />
+                android:title="1박 2일 여행" />
+
+            <item
+                android:id="@+id/nav_food_course"
+                android:icon="@drawable/ic_edit_location"
+                android:title="@string/menu_food_course" />
         </menu>
     </item>
-
-
 
     <item android:title="편의시설">
 
@@ -112,7 +114,6 @@
         </menu>
 
     </item>
-
 
 
 </menu>

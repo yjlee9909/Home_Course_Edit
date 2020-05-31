@@ -27,12 +27,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <!--
         <activity android:name=".home.Course_two_three_trip"></activity>
+        -->
         <activity android:name=".home.RecyclerViewAdapterOneTwoTrip" />
         <activity android:name=".home.Course_one_two_trip" />
         <activity android:name=".home.Course_Activity_one_two_trip" />
         <activity android:name=".home.Course_Activity_daytrip" />
         <activity android:name=".home.Course_Activity_two_three_trip" />
+        <activity android:name=".home.Course_Activity_Food"/>
+
         <activity android:name=".home.RecyclerViewAdapter" />
         <activity android:name=".home.Course_Activity" />
         <activity

@@ -9,6 +9,8 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_calendar">Calendar</string>
+    <string name="menu_food_course">푸디 투어</string>
+    <string name="menu_cafe">카페 투어</string>
 
     <string name="home_second">Home Second</string>
 

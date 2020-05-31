@@ -21,6 +21,7 @@ import com.example.busanapp.ui.home.FindFoodFragment;
 import com.example.busanapp.ui.home.FindHospitalFragment;
 import com.example.busanapp.home.HomeFragment;
 import com.example.busanapp.ui.home.CultureFragment;
+import com.example.busanapp.ui.home.FoodCourseFragment;
 import com.example.busanapp.ui.home.MedicalFragment;
 import com.example.busanapp.ui.home.OneTwoFragment;
 import com.example.busanapp.ui.home.ParkingFragment;
@@ -138,6 +139,12 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new OneTwoFragment()).commit();
                 break;
+
+            case R.id.nav_food_course:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new FoodCourseFragment()).commit();
+                break;
+
             default:
                 break;
         }
