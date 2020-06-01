@@ -14,6 +14,7 @@ import android.view.MenuItem;
 
 import com.example.busanapp.calendar.CalendarFragment;
 import com.example.busanapp.ui.home.BusFragment;
+import com.example.busanapp.ui.home.CafeFragment;
 import com.example.busanapp.ui.home.DaytripFragment;
 import com.example.busanapp.ui.home.DisabledFragment;
 import com.example.busanapp.ui.home.EatFragment;
@@ -143,6 +144,11 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
             case R.id.nav_food_course:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FoodCourseFragment()).commit();
+                break;
+
+            case R.id.nav_cafe:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new CafeFragment()).commit();
                 break;
 
             default:

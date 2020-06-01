@@ -16,11 +16,11 @@ import com.example.busanapp.R;
 
 import java.util.List;
 
-public class RecyclerViewAdapterFoodCourse extends RecyclerView.Adapter<RecyclerViewAdapterFoodCourse.MyViewHolder> {
+public class RecyclerViewAdapterCafe extends RecyclerView.Adapter<RecyclerViewAdapterCafe.MyViewHolder> {
     private Context mContext;
-    private List<Course_Food> mData;
+    private List<Course_Cafe> mData;
 
-    public RecyclerViewAdapterFoodCourse(Context mContext, List<Course_Food> mData) {
+    public RecyclerViewAdapterCafe(Context mContext, List<Course_Cafe> mData) {
         this.mContext = mContext;
         this.mData = mData;
     }
@@ -42,7 +42,7 @@ public class RecyclerViewAdapterFoodCourse extends RecyclerView.Adapter<Recycler
         holder.img_course_thumbnail.setImageResource(mData.get(position).getThumbnail());
 
         holder.cardView.setOnClickListener(v -> {
-            Intent intent = new Intent(mContext, Course_Activity_Food.class);
+            Intent intent = new Intent(mContext, Course_Activity_Cafe.class);
 
             // passing data to the book course activity
             intent.putExtra("Title", mData.get(position).getTitle());
@@ -54,6 +54,9 @@ public class RecyclerViewAdapterFoodCourse extends RecyclerView.Adapter<Recycler
             intent.putExtra("Description5", mData.get(position).getDescription5());
             intent.putExtra("Description6", mData.get(position).getDescription6());
             intent.putExtra("Description7", mData.get(position).getDescription7());
+            intent.putExtra("Description8", mData.get(position).getDescription8());
+            intent.putExtra("Description9", mData.get(position).getDescription9());
+            intent.putExtra("Description10", mData.get(position).getDescription10());
 
             intent.putExtra("Category", mData.get(position).getCategory());
             intent.putExtra("Thumbnail", mData.get(position).getThumbnail());
@@ -64,6 +67,9 @@ public class RecyclerViewAdapterFoodCourse extends RecyclerView.Adapter<Recycler
             intent.putExtra("Thumbnail5", mData.get(position).getThumbnail5());
             intent.putExtra("Thumbnail6", mData.get(position).getThumbnail6());
             intent.putExtra("Thumbnail7", mData.get(position).getThumbnail7());
+            intent.putExtra("Thumbnail8", mData.get(position).getThumbnail8());
+            intent.putExtra("Thumbnail9", mData.get(position).getThumbnail9());
+            intent.putExtra("Thumbnail10", mData.get(position).getThumbnail10());
 
             // start the activity
             mContext.startActivity(intent);
