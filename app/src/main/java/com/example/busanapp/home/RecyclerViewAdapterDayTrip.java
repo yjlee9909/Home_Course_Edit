@@ -55,6 +55,7 @@ public class RecyclerViewAdapterDayTrip extends RecyclerView.Adapter<RecyclerVie
                 intent.putExtra("Description3", mData.get(position).getDescription3());
                 intent.putExtra("Description4", mData.get(position).getDescription4());
                 intent.putExtra("Description5", mData.get(position).getDescription5());
+                intent.putExtra("Description6", mData.get(position).getDescription6());
 
 
                 intent.putExtra("Category", mData.get(position).getCategory());

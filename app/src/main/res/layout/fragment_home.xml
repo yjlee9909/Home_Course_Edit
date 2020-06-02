@@ -3,14 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".home.HomeFragment">
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
     <!---
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/PhotoRecycler"
@@ -18,8 +13,47 @@
         android:layout_height="wrap_content"
         android:overScrollMode="never" />
     -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-3dp">
+
+
+
+    </FrameLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content" />
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/PhotoRecycler"-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:overScrollMode="never"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@drawable/busan_1n2d_sixth"-->
+<!--        android:paddingTop="100dp"/>-->
+
+    <ImageView
+        android:id="@+id/coursethumbnail1"
+        android:layout_width="370dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/daytrip1_2"
+        android:paddingTop="120dp" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/coursethumbnail2"-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@drawable/busan_1n2d_sixth"-->
+<!--        android:paddingTop="100dp" />-->
+
+
+
 </RelativeLayout>

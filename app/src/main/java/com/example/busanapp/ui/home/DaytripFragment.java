@@ -57,6 +57,12 @@ public class DaytripFragment extends Fragment {
                         " 솔숲 사이 바다 냄새 느끼며 느린 걸음으로 다녀오는 가벼운 산책길도 경험해보자.\n",
                 "바다와 가장 인접한 곳에 위치하고 있어 바다 위 사찰이라 불리는 해동용궁사."+
                         " 가장 높은 곳에 위치한 해수관음대불에 인사드리고 바다를 마주하면 간절하던 소원이 이루어진 마냥 입가에 절로 미소가 찾아온다.\n",
+                "① 광안리의 밤은 당신의 낮보다 아름답다\n" +
+                        "② 부산 바다의 정석, 해운대해수욕장\n" +
+                        "③ 직접 만나는 바다 부산아쿠아리움\n" +
+                        "④ 일출과 월출 모두를 품은 달맞이길 & 문탠로드\n" +
+                        "⑤ 도심 속 작은 어촌마을 청사포와 미포\n" +
+                        "⑥ 기장에 가면 해동용궁사\n",
                 R.drawable.daytrip1,R.drawable.daytrip1_2,R.drawable.daytrip1_3,R.drawable.daytrip1_4,R.drawable.daytrip1_5,R.drawable.daytrip1_map));
 
         first_Course.add(new Course_daytrip("역사 & 가족 당일코스", "지도로보는 추천코스","당일여행",
@@ -72,6 +78,14 @@ public class DaytripFragment extends Fragment {
                         " 봄이 오면 길을 따라 만개한 벚나무 덕에 벚꽃터널이 만들어지는 장소이기도 하다.\n",
                 "광안리 해수욕장을 만났으니 해운대 해수욕장도 빼놓을 수는 없을 터. 광안리와 해운대 사이에 있는 동백섬에 들러 산책로를 먼저 걸어보자. " +
                         "동백섬에는 동백해안산책로가 조성되어 있어 바다를 바라보며 숲길을 걷는 묘미를 제대로 만끽할 수 있다\n",
+                "① 세계인이 기억하는 땅 유엔기념공원\n" +
+                        "② 아픈 역사에 위로를 국립일제강제동원역사관\n" +
+                        "③ 오륙도가 전해주는 바다\n" +
+                        "④ 광안리의 밤은 당신의 낮보다 아름답다\n" +
+                        "⑤ 바다와 산, 그리고 부산을 걷다\n" +
+                        "⑥ 부산 바다의 정석, 해운대해수욕장\n" +
+                        "⑦ 일출과 월출 모두를 품은 달맞이길 & 문탠로드\n" +
+                        "⑧ 기장에 가면 해동용궁사\n",
                 //un - 오륙도 - 동백해안산책로 - 달맞이길
                 R.drawable.daytrip2_4,R.drawable.daytrip2_1,R.drawable.daytrip2_2,R.drawable.daytrip2_3,R.drawable.day2trip_6,R.drawable.daytrip2_map));
 
@@ -87,6 +101,15 @@ public class DaytripFragment extends Fragment {
                         "해질 무렵 방문해 아름다운 부산 바다의 일몰을 느껴보는 것도 좋겠다.\n",
                 "해운대 끝에서 이어져 동백섬을 둘러싸는 동백해안산책로. 이곳은 2005년 APEC 정상회담 회의장으로 사용됐던 누리마루가 있는 곳이다." +
                         " 바다를 감아 돌며 걷는 산책로에선 광안리와는 또 다른 매력의 해운대 야경이 기다리고 있다.\n",
+                "① 영도 등대와 함께한 100년 태종대\n" +
+                        "② 가파른 절벽 끝에 흰여울문화마을\n" +
+                        "③ 골목골목 와글와글 국제시장\n" +
+                        "④ 부산여행의 이유 용두산공원\n" +
+                        "⑤ 부산 한복체험은 어디에서 하면 되지?\n" +
+                        "⑥ 오륙도가 전해주는 바다\n" +
+                        "⑦ 광안리의 밤은 당신의 낮보다 아름답다\n" +
+                        "⑧ 부산 바다의 정석, 해운대해수욕장\n" +
+                        "⑨ 바다와 산, 그리고 부산을 걷다\n",
                 //태종대 - 국제시장 - 오륙도 - 동백해안산책로
                 R.drawable.daytrip3_1,R.drawable.daytrip3_5,R.drawable.daytrip3_2,R.drawable.daytrip3_3,R.drawable.daytrip3_4,R.drawable.daytrip3_map));
 

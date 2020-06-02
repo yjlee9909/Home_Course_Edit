@@ -13,7 +13,6 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.busanapp.R;
-import com.example.busanapp.ui.home.Course_two_three_trip;
 
 import java.util.List;
 
@@ -62,6 +61,7 @@ public class RecyclerViewAdapterTwoThreeTrip extends RecyclerView.Adapter<Recycl
                 intent.putExtra("Description9", mData.get(position).getDescription9());
                 intent.putExtra("Description10", mData.get(position).getDescription10());
                 intent.putExtra("Description11", mData.get(position).getDescription11());
+                intent.putExtra("Description12", mData.get(position).getDescription12());
 
 
                 intent.putExtra("Category", mData.get(position).getCategory());

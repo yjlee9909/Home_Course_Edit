@@ -11,6 +11,7 @@ public class Course_daytrip {
         private String Description3;
         private String Description4;
         private String Description5;
+    private String Description6;
 
         private int Thumbnail;
         private int Thumbnail2;
@@ -26,6 +27,7 @@ public class Course_daytrip {
     */
 
         public Course_daytrip(String title,String title2, String category, String description,String description2, String description3, String description4, String description5,
+                 String description6,
                       int thumbnail, int thumbnail2,int thumbnail3, int thumbnail4, int thumbnail5,int thumbnail6 ) {
             Title = title;
             Title2 = title2;
@@ -37,6 +39,7 @@ public class Course_daytrip {
             Description3 = description3;
             Description4 = description4;
             Description5 = description5;
+            Description6 = description6;
 
             //사진
             Thumbnail2 = thumbnail2;
@@ -74,6 +77,9 @@ public class Course_daytrip {
         public String getDescription5() {
             return Description5;
         }
+        public String getDescription6() {
+        return Description6;
+    }
 
 
         public int getThumbnail() {

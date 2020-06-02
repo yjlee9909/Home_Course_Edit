@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.busanapp.R;
 
 public class Course_Activity_daytrip extends AppCompatActivity {
-    private TextView tvtitle,tvtitle2, tvdescription, tvcategory,tvdescription2,tvdescription3,tvdescription4,tvdescription5 ;
+    private TextView tvtitle,tvtitle2, tvdescription, tvcategory,tvdescription2,tvdescription3,tvdescription4,tvdescription5,tvdescription6 ;
     private ImageView img, img2, img3,img4,img5,img6;
 
     @Override
@@ -27,6 +27,7 @@ public class Course_Activity_daytrip extends AppCompatActivity {
         tvdescription3 = (TextView)findViewById(R.id.tvdescription3);
         tvdescription4 = (TextView) findViewById(R.id.tvdescription4);
         tvdescription5 = (TextView) findViewById(R.id.tvdescription5);
+        tvdescription6 = (TextView) findViewById(R.id.tvdescription6);
 
         tvcategory = (TextView) findViewById(R.id.tvcategory);
 
@@ -47,6 +48,7 @@ public class Course_Activity_daytrip extends AppCompatActivity {
         String Description3 = intent.getExtras().getString("Description3");
         String Description4 = intent.getExtras().getString("Description4");
         String Description5 = intent.getExtras().getString("Description5");
+        String Description6 = intent.getExtras().getString("Description6");
 
 
         String Category = intent.getExtras().getString("Category");
@@ -71,6 +73,7 @@ public class Course_Activity_daytrip extends AppCompatActivity {
         tvdescription3.setText(Description3);
         tvdescription4.setText(Description4);
         tvdescription5.setText(Description5);
+        tvdescription6.setText(Description6);
 
         tvcategory.setText(Category);
 

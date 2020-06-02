@@ -11,7 +11,7 @@ import com.example.busanapp.R;
 
 public class Course_Activity_two_three_trip extends AppCompatActivity {
     private TextView tvtitle, tvdescription, tvcategory,tvdescription2,tvdescription3,tvdescription4,tvdescription5
-            , tvdescription6, tvdescription7, tvdescription8, tvdescription9, tvdescription10, tvdescription11;
+            , tvdescription6, tvdescription7, tvdescription8, tvdescription9, tvdescription10, tvdescription11,tvdescription12;
     private ImageView img, img2, img3,img4,img5,img6, img7, img8, img9, img10, img11;
 
     @Override
@@ -34,6 +34,7 @@ public class Course_Activity_two_three_trip extends AppCompatActivity {
         tvdescription9 = (TextView) findViewById(R.id.tvdescription9);
         tvdescription10 = (TextView) findViewById(R.id.tvdescription10);
         tvdescription11 = (TextView) findViewById(R.id.tvdescription11);
+        tvdescription12 = (TextView) findViewById(R.id.tvdescription12);
 
         tvcategory = (TextView) findViewById(R.id.tvcategory);
 
@@ -67,6 +68,7 @@ public class Course_Activity_two_three_trip extends AppCompatActivity {
         String Description9 = intent.getExtras().getString("Description9");
         String Description10 = intent.getExtras().getString("Description10");
         String Description11 = intent.getExtras().getString("Description11");
+        String Description12 = intent.getExtras().getString("Description12");
 
 
         String Category = intent.getExtras().getString("Category");
@@ -104,6 +106,7 @@ public class Course_Activity_two_three_trip extends AppCompatActivity {
         tvdescription9.setText(Description9);
         tvdescription10.setText(Description10);
         tvdescription11.setText(Description11);
+        tvdescription12.setText(Description12);
 
         tvcategory.setText(Category);
 

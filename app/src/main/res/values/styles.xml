@@ -6,9 +6,17 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">#000000</item>
-        <item name="colorPrimaryDark">#7C7474</item>
+        <item name="colorPrimaryDark">#BA8AB8D5</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorSecondary">#F3FF00</item>
+        <item name="android:textColorSecondary">#61484E</item>
+
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/customCheckboxFontStyle</item>
+
+
     </style>
 
     <style name="SplashTheme">
@@ -16,6 +24,11 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowBackground">@drawable/profile_image_pink_white</item>
     </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/swagger</item>
+    </style>
+
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

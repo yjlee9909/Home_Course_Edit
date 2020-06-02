@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.busanapp.R;
+import com.example.busanapp.home.Course_two_three_trip;
 import com.example.busanapp.home.ImageAdapter;
 import com.example.busanapp.home.RecyclerViewAdapterTwoThreeTrip;
 
@@ -83,6 +84,21 @@ public class TwoThreetripFragment extends Fragment {
                         "부산과 거제도를 잇는 거가대교의 개통으로 유명해진 가덕도는 천혜의 자연환경이 그대로 보존된 섬이다. 그 풍경 속에 가려져 미처 몰랐던 가덕도의 슬픈 역사도 마주할 수 있다.\n\n",
 
                 "추천코스",
+                "① 영남 3대사찰 범어사를 만나다\n" +
+                        "② 오리지널 부산은 바로 여기! 동래읍성\n" +
+                        "③ 가야 왕국의 귀환, 복천박물관/복천동고분군\n" +
+                        "④ 기장바다의 색다른 풍경 죽성성당\n" +
+                        "⑤ 기장에 가면 해동용궁사\n" +
+                        "⑥ 자연 그대로를 간직하다, 송정해수욕장\n" +
+                        "⑦ 부산 바다의 정석, 해운대해수욕장\n" +
+                        "⑧ 광안리의 밤은 당신의 낮보다 아름답다\n" +
+                        "⑨ 오륙도가 전해주는 바다\n" +
+                        "⑩ 영도 등대와 함께한 100년 태종대\n" +
+                        "⑪ 눈물로 약속한 공간 영도대교\n" +
+                        "⑫ 부산여행의 이유 용두산공원\n" +
+                        "⑬ 한국의 마추픽추 감천문화마을\n" +
+                        "⑭ 발길 닫는 곳 어디든 아름다운 다대포해수욕장\n" +
+                        "⑮ 알록달록 포토존 가득한 부네치아 장림포구\n",
                 R.drawable.two_three_first,R.drawable.two_three_first_dtwo,R.drawable.two_three_first_dthree,R.drawable.two_three_first_dfour,R.drawable.two_three_first_dfive,
                 R.drawable.two_three_first_dsix,R.drawable.two_three_first_dseven,R.drawable.two_three_first_deight,R.drawable.two_three_first_dnine,R.drawable.two_three_first_dten,R.drawable.two_three_first_deleven));
 
@@ -121,7 +137,19 @@ public class TwoThreetripFragment extends Fragment {
                 "기장 앞바다를 정원으로 둔 힐튼호텔 아난니코브 타운. 맘에 드는 레스토랑을 찾아도 좋고 독특한 큐레이션이 눈길을 끄는 서점에서 충분한 시간을 보내도 좋겠다.\n",
 
                 "빨간 뾰족지붕과 잘 어울리는 하얀 벽돌건물이 동화 속 한 장면처럼 이국적인 죽성성당. 아침에는 가슴 벅찬 일출을 맞이하는 곳이 밤이 되면 은은한 조명으로 둘러싸인 낭만성당으로 변모한다.\n",
-                "추천코스",R.drawable.two_three_second_dsix,R.drawable.two_three_second,R.drawable.two_three_second_dtwo,R.drawable.two_three_second_dfour,R.drawable.two_three_second_dfive,
+                "추천코스"
+                ,
+                "① 이야기로 피어난 어제의 기억 초량이바구길\n" +
+                        "② 지나간 시절을 되짚어 오르는 40계단\n" +
+                        "③ 골목골목 와글와글 국제시장\n" +
+                        "④ 마음에 책갈피 한하를 꽂다 - 보수동책방골목\n" +
+                        "⑤ 가파른 절벽 끝에 흰여울문화마을\n" +
+                        "⑥ 영도 등대와 함께한 100년 태종대\n" +
+                        "⑦ 해양 문화의 꽃 국립해양박물관\n" +
+                        "⑧ 부산의 삼대 포구, 삼포해안길로 나는 갈테다!\n" +
+                        "⑨ 책과 함께하는 영원한 여행 이터널저니\n" +
+                        "⑩ 기장바다의 색다른 풍경 죽성성당\n"
+                ,R.drawable.two_three_second_dsix,R.drawable.two_three_second,R.drawable.two_three_second_dtwo,R.drawable.two_three_second_dfour,R.drawable.two_three_second_dfive,
                 R.drawable.two_three_second_dsix,R.drawable.two_three_second_dseven,R.drawable.two_three_second_deight,R.drawable.two_three_second_dnine,R.drawable.two_three_second_dten,R.drawable.two_three_second_deleven));
 
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        android:font="@font/circle"
+        android:fontStyle="normal"
+        app:font="@font/circle"
+        app:fontStyle="normal"/>
+
+    <font
+        android:font="@font/swagger"
+        android:fontStyle="normal"
+        app:font="@font/swagger"
+        app:fontStyle="normal"/>
+
+</font-family>
